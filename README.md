@@ -2,26 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
 
-## Development server
+1 - Fazer com que os inputs 1 e 2 recebam valores numericos de acordo com o botáo clicado
+2 - Fazer condição para verificar se o input1 já tem valor, se tiver, preencher o campo do input2
+3 - criar função para os botões corrige e branco conforme a funcionalidade de cada botão
+4 - criar uma area para mostrar foto do candidato e fazer com que a foto apareça de acordo com o numero digitado
+5 - criar função para o botão CONFIRMA de acordo com a sua funcionalidade.
+6 - fazer possíveis melhoria de layout
+7 - incrementar novas funcionalidades de forma que se aproxíme ao máximo do sistema da urna eletronica real.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+obs. fica a critério utilizar candidatos reais ou fictícios
+     para utilizar imagens, pode usar imagens disponibilizadas através de liks ou localmente.
+     se for localmente, utilizar imagens de baixa resolução, e jogar dentro da pasta asset, criar 
+     uma nova pasta dentro chamada img
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+A referência desse projeto está nesse link
+https://replit.com/@Prof_AldoAldo/Votacao
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+é só clicar no botão RUN e ver ele funcionando, ao lado esquerdo tem uma opção SHOW FILES, e vai ver o código fonte.
+tem um arquivo codigo.js, nele foi feito a lógica, vocês podem se guiar por lá, mas o ideal é não se preender a lógica
+que foi utilizado, vocês pode chegar no mesmo resultado utilizando lógicas diferente, mas fiquem a 
